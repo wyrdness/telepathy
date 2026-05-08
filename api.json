@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/telepathy",
     "maintainers": [
       {
@@ -19,68 +19,214 @@
   "phenomenon": {
     "id": "telepathy",
     "name": "Telepathy",
-    "aliases": [],
-    "category": "PSYCHIC_PHENOMENA",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      {
+        "name": "Mind reading",
+        "language": "English",
+        "meaning": "Popular term for purported direct mind-to-mind communication"
+      },
+      {
+        "name": "Thought transference",
+        "language": "English (19th c.)",
+        "meaning": "Earlier 19th-century term used by SPR researchers before Myers coined 'telepathy'"
+      },
+      {
+        "name": "Mental Radio",
+        "language": "English",
+        "meaning": "Title of Upton Sinclair's 1930 book; popular nickname for telepathy in the 1930s–40s"
+      }
     ],
-    "status": "documented",
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Extrasensory perception (ESP)",
+    "tags": [
+      "psi",
+      "esp",
+      "parapsychology",
+      "society-for-psychical-research",
+      "ganzfeld",
+      "zener-cards",
+      "rhine",
+      "frederic-myers"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "Telepathy is the purported ability to transmit thoughts, feelings, mental images, or information directly from one mind to another without using any known physical means of communication.",
-      "full": "Telepathy is the purported ability to transmit thoughts, feelings, mental images, or information directly from one mind to another without using any known physical means of communication. The term, coined by Frederic W.H. Myers in 1882, derives from the Greek *tele* (distant) and *pathos* (feeling/perception), literally meaning \\\"distant feeling.\\\""
+      "summary": "The purported direct transmission of information from one mind to another without using any known sensory channel. Coined as a scientific term by Frederic W. H. Myers in 1882; treated by mainstream science as not demonstrated.",
+      "full": "Telepathy is the purported transmission of information — thoughts, feelings, mental images, or sensations — from one person's mind directly to another's, without using any known channel of human sensory perception. The term was coined by the classical scholar and Society for Psychical Research (SPR) co-founder Frederic W. H. Myers in 1882, from Ancient Greek τῆλε ('distant') and πάθος ('feeling, perception'). Telepathy has been the central subject of parapsychological research from the SPR's 'Phantasms of the Living' (1886) through J. B. Rhine's Zener-card experiments at Duke University in the 1930s, the Maimonides dream-telepathy studies of the 1960s–70s, and the ganzfeld experiments of the 1970s–2000s. Mainstream scientific reviews — including the 1988 U.S. National Research Council report and successive critiques by Ray Hyman, Susan Blackmore, and others — have concluded that no replicable evidence demonstrates telepathy and that the parapsychological literature is best explained by methodological flaws, sensory leakage, statistical errors, and (in some cases) outright fraud. Telepathy is therefore typically classified as a pseudoscience, while remaining a powerful and widely held cultural belief."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by Frederic W. H. Myers in 1882 in a paper to the Society for Psychical Research.",
+      "meaning": "From Greek τῆλε (têle, 'distant') + πάθος (páthos, 'feeling, experience'); literally 'distant feeling'.",
+      "first_use": "1882 (Myers, in the Proceedings of the SPR)."
     }
   },
   "classification": {
     "taxonomy": {
       "category": "PSYCHIC_PHENOMENA",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Extrasensory perception",
+      "subtype": "Mind-to-mind information transfer",
+      "variant": "Western parapsychological tradition"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      {
+        "id": "clairvoyance",
+        "name": "Clairvoyance",
+        "relationship": "related",
+        "description": "Purported direct perception of distant events or objects without sensory mediation"
+      },
+      {
+        "id": "precognition",
+        "name": "Precognition",
+        "relationship": "related",
+        "description": "Purported perception of future events"
+      },
+      {
+        "id": "psychokinesis",
+        "name": "Psychokinesis",
+        "relationship": "related",
+        "description": "Purported direct mental influence on physical systems"
+      },
+      {
+        "id": "remote-viewing",
+        "name": "Remote Viewing",
+        "relationship": "subset",
+        "description": "Cold-War-era U.S. military / SRI program closely related to telepathy and clairvoyance"
+      }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        {
+          "feature": "No physical signature detected",
+          "description": "Despite extensive instrumentation, no physical signal accompanying claimed telepathic transfer has been reliably demonstrated",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Telepathy is not an entity with a body. The phenomenon, as claimed, is a putative information-transfer process between minds without a known physical medium."
     },
-    "abilities": [],
+    "abilities": [
+      {
+        "ability": "Mental image transfer",
+        "description": "Purported transmission of an image (e.g., a Zener card or ganzfeld target) from sender to receiver",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Emotional transfer",
+        "description": "Anecdotal reports of feelings (especially distress) communicated between close family members at a distance",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Crisis apparition / 'Phantasms of the Living'",
+        "description": "19th-c. SPR cases of dying persons appearing to absent loved ones, treated by Myers and Gurney as evidence of telepathy",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "pair",
+      "patterns": [
+        "Reports cluster in close emotional pairs (parent–child, twins, romantic partners)",
+        "Strongest claimed effects in highly motivated subjects under relaxed conditions (ganzfeld)",
+        "Replication failures are typical when independent groups attempt the experiments"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Telepathy is reported and researched globally; experimental and theoretical work has been concentrated in the UK, USA, USSR/Russia, and continental Europe.",
+      "continents": [
+        "Europe",
+        "North America",
+        "Asia"
+      ],
+      "countries": [
+        "United Kingdom",
+        "United States",
+        "Russia",
+        "France",
+        "Germany",
+        "Netherlands",
+        "Japan"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1882",
+        "circa": false,
+        "source": "Myers, F. W. H. (1882) coining of the term in a paper to the SPR"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1882–1914",
+          "description": "Founding era of the SPR; Myers, Gurney, and Sidgwick"
+        },
+        {
+          "period": "1930–1965",
+          "description": "Rhine's quantitative parapsychology at Duke; popularisation through Sinclair's Mental Radio (1930)"
+        },
+        {
+          "period": "1972–1994",
+          "description": "Maimonides dream-telepathy programme and the ganzfeld era; SRI/CIA Stargate remote-viewing programme (1978–1995)"
+        }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Belief in mind-to-mind communication is found across many traditional and religious cultures; the modern Western scientific framing emerges from late 19th-c. spiritualism and psychical research.",
+      "earliest_accounts": "Anecdotal reports of 'thought transference' in 19th-century mesmerism and spiritualism; coined and systematised by Myers and the SPR from 1882.",
+      "folklore_connections": "Connected to broader folklore of mind reading, second sight (Scottish Gaelic dà-shealladh), and shamanic communication."
     },
-    "timeline": []
+    "timeline": [
+      {
+        "date": "1882-01-01",
+        "event": "Frederic W. H. Myers coins the term 'telepathy' in a paper for the Society for Psychical Research",
+        "significance": "Establishes the modern scientific term",
+        "source": "Proceedings of the SPR (1882)"
+      },
+      {
+        "date": "1886-01-01",
+        "event": "Edmund Gurney, Frederic Myers, and Frank Podmore publish 'Phantasms of the Living', a two-volume case-collection treated as evidence of telepathic 'crisis apparitions'",
+        "significance": "Foundational Victorian text in psychical research",
+        "source": "Gurney, Myers & Podmore (1886)"
+      },
+      {
+        "date": "1930-01-01",
+        "event": "Upton Sinclair publishes 'Mental Radio', documenting picture-drawing experiments with his wife Mary Craig Sinclair",
+        "significance": "Major popular-press anchor for telepathy in the early 20th c.; preface by Albert Einstein",
+        "source": "Sinclair, U. (1930)"
+      },
+      {
+        "date": "1934-01-01",
+        "event": "J. B. Rhine publishes 'Extra-Sensory Perception', summarising Zener-card experiments at Duke University",
+        "significance": "Foundational text of laboratory parapsychology",
+        "source": "Rhine, J. B. (1934)"
+      },
+      {
+        "date": "1985-01-01",
+        "event": "Ray Hyman and Charles Honorton publish a 'joint communiqué' on the ganzfeld experiments, identifying methodological flaws and proposing improved protocols",
+        "significance": "Defines the modern critical framework for ganzfeld telepathy research",
+        "source": "Hyman & Honorton (1986), Journal of Parapsychology"
+      },
+      {
+        "date": "1988-01-01",
+        "event": "U.S. National Research Council report (Druckman & Swets, eds.) concludes there is 'no scientific justification' for the existence of telepathy or other psi phenomena",
+        "significance": "Major institutional evaluation rejecting telepathy as a demonstrated phenomenon",
+        "source": "NRC, 'Enhancing Human Performance' (1988)"
+      },
+      {
+        "date": "1995-01-01",
+        "event": "American Institutes for Research evaluation of the U.S. Stargate remote-viewing programme concludes that effects are too small and unreliable for operational use; programme closed",
+        "significance": "End of the major Cold-War government programme on telepathy-related psi",
+        "source": "Mumford, Rose & Goslin (1995), AIR"
+      }
+    ],
+    "modern_era": "Mainstream consensus regards telepathy as not demonstrated. Active researchers (e.g. Daryl Bem, Dean Radin, Etzel Cardeña) continue to publish meta-analyses arguing for small but real effects; mainstream replications and critiques (Ritchie, Wiseman, Galak, etc.) consistently fail to confirm them. The phenomenon retains strong cultural presence in popular media, fiction, and games."
   },
   "sightings": {
     "statistics": {
@@ -93,34 +239,260 @@
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "documentary": [
+      {
+        "id": "telepathy-evidence-phantasms-1886",
+        "type": "book",
+        "name": "Phantasms of the Living (Gurney, Myers & Podmore, 1886)",
+        "date": "1886",
+        "description": "Two-volume Victorian-era case-collection of 'crisis apparitions' interpreted as telepathic.",
+        "status": "disputed",
+        "analysis": "Foundational SPR text; modern critics argue cases rely on retrospective testimony and selective recording.",
+        "source": "Gurney, Myers & Podmore (1886)"
+      },
+      {
+        "id": "telepathy-evidence-rhine-1934",
+        "type": "book",
+        "name": "Extra-Sensory Perception (Rhine, 1934)",
+        "date": "1934",
+        "description": "Monograph reporting Zener-card experiments at Duke University claimed to support telepathy.",
+        "status": "debunked",
+        "analysis": "Subsequent reviews identified sensory leakage, recording errors, and at least one case of fraud (Levy, 1974); results have not been independently replicated.",
+        "source": "Rhine, J. B. (1934)"
+      },
+      {
+        "id": "telepathy-evidence-ganzfeld-meta",
+        "type": "meta-analysis",
+        "name": "Ganzfeld meta-analyses (1985–2010)",
+        "date": "1985–2010",
+        "description": "Series of meta-analyses (Honorton, Bem & Honorton, Storm et al.) of ganzfeld telepathy experiments; counter-meta-analyses by Hyman, Milton & Wiseman.",
+        "status": "disputed",
+        "analysis": "Proponents claim small but consistent effect sizes; mainstream critiques cite file-drawer effects, post-hoc selection, and failures to replicate by neutral teams.",
+        "source": "Hyman & Honorton (1986); Bem & Honorton (1994); Milton & Wiseman (1999)"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Psi field / nonlocal mind",
+        "description": "Some parapsychologists hypothesise a 'psi' faculty that transfers information nonlocally, possibly drawing analogies to quantum entanglement.",
+        "proponents": [
+          "Dean Radin",
+          "Stephan Schwartz"
+        ],
+        "evidence_cited": [
+          "Aggregate ganzfeld meta-analyses",
+          "Anecdotal pattern of reports across cultures"
+        ]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "No evidence beyond chance",
+        "description": "Mainstream scientific consensus, supported by the 1988 NRC report and successive critical reviews, is that the experimental literature does not establish telepathy beyond chance and is best explained by methodological errors and selection effects.",
+        "proponents": [
+          "Ray Hyman",
+          "Susan Blackmore",
+          "James Alcock",
+          "Daniel Druckman & Robert Swets (NRC, 1988)"
+        ],
+        "evidence_cited": [
+          "Replication failures in independent labs",
+          "Statistical re-analyses identifying file-drawer effects"
+        ]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cold reading and sensory leakage",
+        "description": "Documented cases of stage 'mind readers' (Bishop, Cumberland) and laboratory experiments (Creery sisters, Soal) have been shown to depend on muscle reading, signalling, or recording errors.",
+        "proponents": [
+          "Joseph Banks Rhine (in later self-criticism)",
+          "Persi Diaconis",
+          "James Randi"
+        ],
+        "evidence_cited": [
+          "Creery sisters' confession of signalling",
+          "Soal's manipulated data revealed by Markwick (1978)"
+        ]
+      },
+      {
+        "name": "Cognitive biases",
+        "description": "Confirmation bias, selective memory, and the 'illusion of agency' explain anecdotal beliefs in personal telepathic experiences without invoking psi.",
+        "proponents": [
+          "Susan Blackmore",
+          "Christopher French"
+        ],
+        "evidence_cited": [
+          "Experimental work on apophenia and pattern-detection biases"
+        ]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Western mesmerism and spiritualism",
+        "Scottish 'second sight' (dà-shealladh)",
+        "Shamanic mind-communication traditions worldwide"
+      ],
+      "stories": [
+        "SPR 'crisis apparition' cases (Gurney, Myers & Podmore, 1886)",
+        "Upton and Mary Craig Sinclair's 'Mental Radio' picture-drawing trials"
+      ],
+      "beliefs": "Belief in personal telepathic experiences (especially with close relatives) remains widespread in surveys of Western and non-Western publics, despite the absence of scientific evidence."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Upton Sinclair, 'Mental Radio' (1930; preface by Albert Einstein)",
+        "Stephen King, 'The Shining' (1977) — fictional telepathy ('the shining')",
+        "Alfred Bester, 'The Demolished Man' (1953)"
+      ],
+      "film_tv": [
+        "Numerous psychic-ability films and series; X-Men franchise (Professor X)",
+        "Stranger Things (2016–) — telepathic / psychokinetic abilities"
+      ],
+      "games": [
+        "Psychic / mind-reader classes are standard in tabletop RPGs (e.g., 'Psionics' in Dungeons & Dragons)"
+      ],
+      "other": [
+        "Frequent appearance in stage mentalism and television performance"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      {
+        "name": "Frederic W. H. Myers",
+        "affiliation": "Society for Psychical Research, Cambridge",
+        "contribution": "Coined 'telepathy' (1882); co-author of 'Phantasms of the Living' (1886)",
+        "period": "1880s–1900s"
+      },
+      {
+        "name": "J. B. Rhine",
+        "affiliation": "Duke University (parapsychology)",
+        "contribution": "Zener-card experiments and quantitative parapsychology",
+        "period": "1930s–1960s"
+      },
+      {
+        "name": "Charles Honorton",
+        "affiliation": "Maimonides Medical Center; PRL",
+        "contribution": "Designed the ganzfeld experimental protocol",
+        "period": "1970s–1990s"
+      },
+      {
+        "name": "Ray Hyman",
+        "affiliation": "University of Oregon (psychology)",
+        "contribution": "Major skeptical critic of parapsychological methodology",
+        "period": "1970s–present"
+      },
+      {
+        "name": "Susan Blackmore",
+        "affiliation": "University of the West of England (psychology)",
+        "contribution": "Former parapsychologist who became a leading skeptic",
+        "period": "1980s–present"
+      },
+      {
+        "name": "Dean Radin",
+        "affiliation": "Institute of Noetic Sciences (parapsychology)",
+        "contribution": "Contemporary advocate for psi research; meta-analyses of psi data",
+        "period": "1990s–present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Society for Psychical Research (SPR)",
+        "url": "https://www.spr.ac.uk",
+        "focus": "Founding (1882) British learned society for psychical research"
+      },
+      {
+        "name": "Parapsychological Association",
+        "url": "https://www.parapsych.org",
+        "focus": "International scholarly society for parapsychology"
+      },
+      {
+        "name": "Institute of Noetic Sciences (IONS)",
+        "url": "https://www.noetic.org",
+        "focus": "Research organization for psi and consciousness studies"
+      }
+    ],
+    "ongoing_studies": "Active ganzfeld experiments and meta-analyses continue at parapsychology labs (Edinburgh, Lund); independent replication efforts (e.g. Galak et al. 2012 on Bem's precognition work) consistently fail to confirm previously reported effects."
   },
-  "sources": []
+  "sources": [
+    {
+      "id": "wikipedia-telepathy",
+      "type": "website",
+      "title": "Telepathy",
+      "publication": "English Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Telepathy",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "gurney-myers-podmore-1886",
+      "type": "book",
+      "title": "Phantasms of the Living",
+      "authors": [
+        "Edmund Gurney",
+        "Frederic W. H. Myers",
+        "Frank Podmore"
+      ],
+      "publication": "Trübner, London",
+      "date": "1886"
+    },
+    {
+      "id": "sinclair-1930",
+      "type": "book",
+      "title": "Mental Radio",
+      "authors": [
+        "Upton Sinclair"
+      ],
+      "publication": "Albert & Charles Boni",
+      "date": "1930"
+    },
+    {
+      "id": "rhine-1934",
+      "type": "book",
+      "title": "Extra-Sensory Perception",
+      "authors": [
+        "Joseph Banks Rhine"
+      ],
+      "publication": "Boston Society for Psychic Research",
+      "date": "1934"
+    },
+    {
+      "id": "nrc-1988",
+      "type": "other",
+      "title": "Enhancing Human Performance: Issues, Theories, and Techniques",
+      "authors": [
+        "Daniel Druckman",
+        "John A. Swets"
+      ],
+      "publication": "U.S. National Research Council, National Academy Press",
+      "date": "1988",
+      "isbn": "978-0309037921"
+    },
+    {
+      "id": "hyman-honorton-1986",
+      "type": "paper",
+      "title": "A Joint Communiqué: The Psi Ganzfeld Controversy",
+      "authors": [
+        "Ray Hyman",
+        "Charles Honorton"
+      ],
+      "publication": "Journal of Parapsychology",
+      "date": "1986"
+    },
+    {
+      "id": "milton-wiseman-1999",
+      "type": "paper",
+      "title": "Does Psi Exist? Lack of Replication of an Anomalous Process of Information Transfer",
+      "authors": [
+        "Julie Milton",
+        "Richard Wiseman"
+      ],
+      "publication": "Psychological Bulletin, 125(4)",
+      "date": "1999"
+    }
+  ]
 }
